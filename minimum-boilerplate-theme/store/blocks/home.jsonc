@@ -1,0 +1,95 @@
+{
+  "store.home": { 
+    "blocks": [
+      "rich-text",
+      "info-card#pixel",
+      "flex-layout.row"
+    ]
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "VTEX Store Framework",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "info-card#pixel": {
+    "props": {
+      "id": "infoCardPixel",
+      "isFullModeStyle": false,
+      "textPosition": "left",
+      "imageUrl": "assets/digestzen.png",
+      "headline": "Presentamos el DigestZen",
+      "subhead":"De uso interno para mejorar la digestión",
+      "callToActionText": "Conoce Más",
+      "callToActionUrl": "#",
+      "blockClass": "infoCardPixel",
+      "textAlignment": "center"
+    }
+  },
+  "flex-layout.row":{
+    "children":[
+      "info-card#col-left",
+      "flex-layout.col#col-right"
+    ]
+    },
+    "info-card#col-left":{
+      "props":{
+        "id": "infoCardMacBook",
+        "imageUrl": "assets/digestzen.png",
+        "isFullModeStyle": false,
+        "headline": "iMac",
+        "subhead":"lista para todo",
+        "callToActionText": "Conoce Más",
+        "callToActionUrl": "#",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "callToActionMode": "link",
+        "blockClass": "infoCardMacBook"       
+      }
+    },
+    "flex-layout.col#col-right":{
+      "children":[
+        "info-card#col-right-1",
+        "info-card#col-right-2"
+      ]
+    },
+    "info-card#col-right-1":{
+      "props":{
+        "id": "infoCardStadia",
+        "imageUrl": "assets/digestzen.png",
+        "isFullModeStyle": false,
+        "headline": "Stadia",
+        "subhead":"Stadia subhead",
+        "callToActionText": "Conoce Más",
+        "callToActionUrl": "#",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "callToActionMode": "button",
+        "blockClass": "infoCardStadia"       
+      }
+    },
+    "info-card#col-right-2":{
+      "props":{
+        "id": "infoCardGoogleHome",
+        "imageUrl": "assets/digestzen.png",
+        "isFullModeStyle": false,
+        "headline": "Stadia",
+        "subhead":"Stadia subhead",
+        "callToActionText": "Conoce Más",
+        "callToActionUrl": "#",
+        "textPosition": "center",
+        "textAlignment": "center",
+        "callToActionMode": "button",
+        "blockClass": "infoCardGoogleHome"       
+      }
+    }
+
+  
+  
+  
+
+
+
+}
